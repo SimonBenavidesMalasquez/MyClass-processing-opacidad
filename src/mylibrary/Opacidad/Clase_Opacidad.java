@@ -17,6 +17,7 @@ public class Clase_Opacidad {
     private    int        inc =   3 ;
     private boolean activador = false ;
     private int   tipo_salida = 1 ;  //  Salida normal ( 0 - 250 )
+    private double   velocity = 0.05 ;
 
 	public Clase_Opacidad(  String tipo ) {
 		
@@ -45,7 +46,7 @@ public class Clase_Opacidad {
         }
         
         // MENSAJE LIBRERIA 
-        System.out.println("Load Library Simon : Clase_Opacidad / 11-may-2022" );
+        //System.out.println("Load Library Simon : Clase_Opacidad / 11-may-2022" );
 		
 	}
 	
@@ -98,7 +99,7 @@ public class Clase_Opacidad {
     }
 
     public void incremento(){
-	      ang = ang + 0.07f;
+	      ang = ang + velocity ;
     }
 
     public void funcion_seno(){
@@ -126,7 +127,23 @@ public class Clase_Opacidad {
 
         inc = incremento ;
     }       
+    
+    public void setVelocity( double valor ) {
+    	
+    	velocity = valor ;
+    	
+    }
 
 
 }
+
+
+
+
+
+
+
+
+
+
 
