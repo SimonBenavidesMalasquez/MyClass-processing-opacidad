@@ -1,15 +1,8 @@
 package mylibrary.Opacidad;
 
 
-//import processing.core.*;
-
-
-
 public class Clase_Opacidad {
 	
-	// myParent is a reference to the parent sketch
-	//PApplet myParent;
-
     // Variables basicas : 
     private double        ang = 0.0 ;
     private double      valor = 0.0 ;
@@ -20,9 +13,6 @@ public class Clase_Opacidad {
     private double   velocity = 0.05 ;
 
 	public Clase_Opacidad(  String tipo ) {
-		
-		// Initialize
-		//myParent = theParent;
 		
         // POR DEFECTO 
         valor       = 0.0 ;
@@ -44,9 +34,6 @@ public class Clase_Opacidad {
            tipo_salida = 2 ;
         
         }
-        
-        // MENSAJE LIBRERIA 
-        //System.out.println("Load Library Simon : Clase_Opacidad / 11-may-2022" );
 		
 	}
 	
